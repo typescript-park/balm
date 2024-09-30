@@ -1,3 +1,3 @@
 import Constant from "./constant";
-
-export { Constant };
+import Type from "./type";
+export { Constant, Type };
