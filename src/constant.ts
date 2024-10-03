@@ -11,6 +11,15 @@ const Constant = {
    * 点。
    */
   DOT: ".",
+
+  /**
+   * 未定义。
+   */
+  UNDEFINED: undefined,
+  /**
+   * 空值。
+   */
+  NULL: null,
 };
 
 export default Constant;
