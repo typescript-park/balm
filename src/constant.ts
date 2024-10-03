@@ -20,6 +20,11 @@ const Constant = {
    * 空值。
    */
   NULL: null,
+
+  /**
+   * 零。
+   */
+  ZERO: 0,
 };
 
 export default Constant;
