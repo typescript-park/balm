@@ -8,4 +8,12 @@ describe("string", () => {
   it("non-empty string is not empty", () => {
     expect(String.isEmpty("hello")).toBe(false);
   });
+
+  it("empty string is not empty", () => {
+    expect(String.isNotEmpty("")).toBe(false);
+  });
+
+  it("non-empty string is not empty", () => {
+    expect(String.isNotEmpty("hello")).toBe(true);
+  });
 });
