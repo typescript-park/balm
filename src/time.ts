@@ -1,4 +1,6 @@
 const Time = {
+  defaultFormat: "yyyy-MM-dd HH:mm:ss",
+
   /**
    * 休眠。
    * @param {number} ms 休眠时间，单位为毫秒。
