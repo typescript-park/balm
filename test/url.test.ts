@@ -6,4 +6,15 @@ describe("url", () => {
       "weibo.com"
     );
   });
+
+  it("isHttp", () => {
+    expect(Url.isHttp("http://weibo.com")).toBe(true);
+    expect(Url.isHttp("https://weibo.com")).toBe(true);
+    expect(Url.isHttp("ftp://weibo.com")).toBe(false);
+  });
+
+  it("isHttps", () => {
+    expect(Url.isHttps("https://weibo.com")).toBe(true);
+    expect(Url.isHttps("http://weibo.com")).toBe(false);
+  });
 });
