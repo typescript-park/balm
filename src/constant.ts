@@ -13,6 +13,11 @@ const Constant = {
   DOT: ".",
 
   /**
+   * 换行符。
+   */
+  NEWLINE: "\n",
+
+  /**
    * 未定义。
    */
   UNDEFINED: undefined,
